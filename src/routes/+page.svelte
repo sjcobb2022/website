@@ -2,7 +2,7 @@
 	class="w-screen h-screen flex justify-center content-center items-center bg-[url('/wave.png')]"
 >
 	<div
-		class="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100"
+		class="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 bg-white dark:bg-gray-900 dark:text-gray-100"
 	>
 		<img
 			src="/face.jpg"
