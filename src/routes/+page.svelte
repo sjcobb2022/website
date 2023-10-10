@@ -1,3 +1,7 @@
+<svelte:head>
+	<link rel="preload" as="image" href="/wave.png" />
+</svelte:head>
+
 <div class="group relative block">
 	<div class="relative h-screen">
 		<img src="/wave.png" alt="Background" class="absolute inset-0 h-full w-full object-cover" />
