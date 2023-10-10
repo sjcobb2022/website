@@ -1,10 +1,11 @@
-<svelte:head>
-	<link rel="preload" as="image" href="/wave.png" />
-</svelte:head>
+<script lang="ts">
+	import face from '$lib/assets/face.jpg';
+	import wave from '$lib/assets/wave.png';
+</script>
 
 <div class="group relative block">
 	<div class="relative h-screen">
-		<img src="/wave.png" alt="Background" class="absolute inset-0 h-full w-full object-cover" />
+		<img src={wave} alt="Background" class="absolute inset-0 h-full w-full object-cover" />
 	</div>
 
 	<div class="absolute inset-0 flex flex-col items-center justify-center p-6">
@@ -13,7 +14,7 @@
 				class="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 bg-white dark:bg-gray-900 dark:text-gray-100"
 			>
 				<img
-					src="/face.jpg"
+					src={face}
 					alt="Samuel's Face"
 					class="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 object-cover"
 				/>
