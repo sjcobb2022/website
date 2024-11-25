@@ -58,7 +58,7 @@
 						</a>
 						<a
 							rel="noopener noreferrer"
-							href="mailto:sam.cobb.2003@gmail.com"
+							href="mailto:business@sjc03.org"
 							aria-label="Email"
 							class="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
 						>
